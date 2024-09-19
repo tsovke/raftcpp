@@ -30,8 +30,8 @@ public:
 
   template <typename F, typename... Args>
   auto submit(F &&f, Args &&...args)
-      -> std::future<std::invoke_result_t<F, Args...>> {
-    using RT = std::invoke_result_t<F, Args...>;
+      -> std::future<typename std::result_of<F(Args)...>::type> {
+    using RT = typename std::result_of<F(Args)...>::type;
     auto task = std::make_shared<std::packaged_task<RT()>>(
         std::bind(std::forward<F>(f), std::forward<Args>(args)...));
     std::future<RT> res = task->get_future();
