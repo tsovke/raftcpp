@@ -50,4 +50,5 @@ private:
     delete ptr;
   }
 };
+
 } // namespace raft
