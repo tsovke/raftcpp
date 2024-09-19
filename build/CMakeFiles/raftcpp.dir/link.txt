@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g CMakeFiles/raftcpp.dir/src/raft.cpp.o CMakeFiles/raftcpp.dir/test/test.cpp.o -o raftcpp

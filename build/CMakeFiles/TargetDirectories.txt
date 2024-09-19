@@ -1,4 +1,0 @@
-/home/xt/raftcpp/build/CMakeFiles/raftcpp.dir
-/home/xt/raftcpp/build/CMakeFiles/thread_pool_test.dir
-/home/xt/raftcpp/build/CMakeFiles/edit_cache.dir
-/home/xt/raftcpp/build/CMakeFiles/rebuild_cache.dir

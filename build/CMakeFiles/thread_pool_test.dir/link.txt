@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g CMakeFiles/thread_pool_test.dir/test/thread_pool_test.cpp.o -o thread_pool_test
